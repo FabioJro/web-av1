@@ -20,14 +20,30 @@
 .apresentacao {
 
     flex: 1;
+    display: flex;
+    align-items: center;
+    width: 40%;
+    
+
 
 }
 
 
 .apresentacao__conteudo__titulo{
+    font-size: 2rem;
+    color: white;
 
+}
+
+#titulo_destaque{
     color: red;
+}
 
+.apresentacao_descricao{
+
+
+    font-size: 1.5rem;
+    color: black;
 }
 
 .cabecalho {
