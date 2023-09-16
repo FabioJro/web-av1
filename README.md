@@ -23,7 +23,7 @@ Caso queira verificar o modelo original no site : https://www.figma.com/file/t6M
 
 1. Projeto no Figma da pagina inicial e de um formulário
 2. Implementação do design da página inicial e de um form
-3. deixar aplicação responsiva
+3. Deixar aplicação responsiva
 4. Implementar Menu de navegação da página inicial
 5. Implementar navegação entre páginas
 
