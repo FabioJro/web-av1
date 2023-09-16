@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
+@font-face {
+    font-family: Mecha;
+    src: url(GemunuLibre-Light.ttf);
+  }
 
 * {
     margin: 0;
@@ -51,23 +55,24 @@
 }
 
 .cabecalho {
-    padding: 2% 0% 0% 15%;
+    padding: 2% 0% 0% 10%;
 }
 
 .cabecalho_menu {
     display: flex;
-    gap: 80px;
+    gap: 100px;
+    
 
 }
 
 .cabecalho_menu_link {
 
-    font-family: 'Montserrat', sans-serif;
-    font-size: 35px;
-    font-weight: 600;
+    font-family: 'Mecha', sans-serif;
+    font-size: 60px;
     color: red;
     text-decoration: none;
-    text-shadow: 1px 1px 1px #111111;
+    
+    /*text-shadow: 1px 1px 1px #111111;*/
 
 }
 
