@@ -3,7 +3,7 @@
 @font-face {
     font-family: Mecha;
     src: url(GemunuLibre-Light.ttf);
-  }
+}
 
 * {
     margin: 0;
@@ -25,33 +25,33 @@
 
     flex: 1;
     display: flex;
-    align-items: center;
-    width: 40%;
+    width: 50%;
     padding-bottom: 200px;
-    padding-left:100px;
-    
+    padding-left: 100px;
+
 }
-.apresentacao__conteudo{
-    
-    width: 615px;
+
+.apresentacao__conteudo {
+    margin-top: 10rem;
+    width: 850px;
     display: flex;
     flex-direction: column;
-    gap: 40px
+    gap: 40px;
 
 }
 
-.apresentacao__conteudo__titulo{
-   
+.apresentacao__conteudo__titulo {
+
     font-size: 2rem;
     color: white;
 
 }
 
-#titulo_destaque{
+#titulo_destaque {
     color: red;
 }
 
-.apresentacao_descricao{
+.apresentacao_descricao {
 
 
     font-size: 1.5rem;
@@ -66,7 +66,7 @@
 .cabecalho_menu {
     display: flex;
     gap: 100px;
-    
+
 
 }
 
@@ -76,7 +76,7 @@
     font-size: 60px;
     color: red;
     text-decoration: none;
-    
+
     /*text-shadow: 1px 1px 1px #111111;*/
 
 }
@@ -94,9 +94,9 @@
 }
 
 .rodape_titulo {
-    font-family: 'Mecha',sans-serif;
+    font-family: 'Mecha', sans-serif;
     color: red;
     font-size: 60px;
-    
-    
+
+
 }
