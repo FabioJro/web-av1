@@ -4,6 +4,7 @@
 
 - [Descrição do projeto](#descrição-do-projeto)
 - [Requisitos](#requisitos)
+- [Tecnologias Utilizadas](#Tecnologias)
 
 
 <div align="center"> 
@@ -26,3 +27,8 @@ Caso queira verificar o modelo original no site : https://www.figma.com/file/t6M
 4. Implementar Menu de navegação da página inicial
 5. Implementar navegação entre páginas
 
+## Tecnologias
+
+- Visual Studio
+- Html
+- Css
