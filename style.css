@@ -78,6 +78,7 @@
 
 .cabecalho_menu_link:hover {
 
+    font-family: 'Mecha';
     color: white;
 
 }
@@ -88,6 +89,7 @@
 }
 
 .rodape_titulo {
+    font-family: 'Mecha';
     color: red;
-    text-shadow: 1px 1px 1px #111111;
+    
 }
