@@ -89,7 +89,9 @@
 }
 
 .rodape_titulo {
-    font-family: 'Mecha';
+    font-family: 'Mecha',sans-serif;
     color: red;
+    font-size: 60px;
+    
     
 }
