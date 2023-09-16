@@ -3,8 +3,12 @@
 ### Tópicos 
 
 - [Descrição do projeto](#descrição-do-projeto)
-
 - [Requisitos](#requisitos)
+
+
+<div> align="center"
+img src="[https://desblogada.files.wordpress.co...](https://github.com/FabioJro/web-av1/assets/114963708/0175cdd1-5b24-424d-9272-27435df67a63)" width="0px" /
+</div>
 
 
 ## Descrição do projeto 
