@@ -16,7 +16,7 @@
 <p aling= "justify"> 
 O projeto em questão é devenvolvido para a disciplina Desenvolvimento de Aplicações para Internet do curos Ciencias da Computação . O Mecha Start uma home page de um jogo o qual o usuario poderá fazer um cadastro para jogar.Tambem seguindo todas as regras implementadas pelo o professor.
 
-Caso queira verificar o modelo original no site : https://www.figma.com/file/t6MKxIU2ZWTxpMQuFmSBOe/Untitled?type=design&node-id=2-2&mode=design&t=tKwuaim9rZ3l9OZz-0
+Caso queira verificar o modelo original no site : https://www.figma.com/community/file/1285254746443063612/Mecha-Start
 </p>
 
 ## Requisitos
