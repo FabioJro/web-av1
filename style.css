@@ -19,6 +19,7 @@
     display: flex;
     flex-direction: column;
     height: 100vh;
+    font-family: 'Mecha', sans-serif;
 }
 
 .apresentacao {
@@ -26,30 +27,32 @@
     flex: 1;
     display: flex;
     width: 50%;
-    padding-bottom: 200px;
-    padding-left: 100px;
+    padding-bottom: 10rem;
+    padding-left: 9rem;
 
 }
 
 .apresentacao__conteudo {
+
     margin-top: 10rem;
-    width: 850px;
+    width: 45rem;
     display: flex;
     flex-direction: column;
-    gap: 40px;
-
+    gap: 3rem;
 }
 
 .apresentacao__conteudo__titulo {
 
-    font-size: 64px;
+    font-size: 4rem;
     color: white;
-    font-family: 'mecha';
+    
 
 }
 
 #titulo_destaque {
+
     color: red;
+
 }
 
 .apresentacao_descricao {
@@ -58,25 +61,45 @@
     font-size: 1.5rem;
     color: white;
     text-shadow: 1px 1px 1px #111;
-    font-family: 'Mecha';
-    font-size: 36px;
+    font-size: 2rem;
 }
 
+.button-cadastro{
+
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+    text-align: center;
+    padding-top:0.5rem;
+    width: 40%;
+    height: 100%;
+    border-style: solid;
+    border-radius: 2rem;
+    border-color : red;
+    margin-left: 13rem;
+    
+}
+
+.button-cadastro:hover{}
+
 .cabecalho {
+
     padding: 2% 0% 0% 10%;
+
 }
 
 .cabecalho_menu {
+
     display: flex;
-    gap: 100px;
+    gap: 4rem;
 
 
 }
 
 .cabecalho_menu_link {
 
-    font-family: 'Mecha', sans-serif;
-    font-size: 64px;
+    
+    font-size: 3rem;
     color: red;
     text-decoration: none;
 
@@ -86,7 +109,7 @@
 
 .cabecalho_menu_link:hover {
 
-    font-family: 'Mecha';
+    
     color: white;
 
 }
@@ -97,9 +120,8 @@
 }
 
 .rodape_titulo {
-    font-family: 'Mecha', sans-serif;
+    
     color: red;
-    font-size: 60px;
-
+    font-size: 2rem;
 
 }
