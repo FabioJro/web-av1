@@ -1,13 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+@font-face {
+    font-family: Mecha;
+    src: url(GemunuLibre-Light.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
+
 }
 
+
 .background {
-    background-image: url(1313034.jpg);
+    background-image: url(Background-image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'Mecha', sans-serif;
 }
 
+
+.cabecalho {
+
+    padding: 2% 0% 0% 10%;
+ 
+
+}
+
+
+
+.cabecalho_menu {
+    display: flex;
+    gap: 4rem;
+
+}
+
+.cabecalho_menu_link {
+    font-size: 3rem;
+    color: red;
+    text-decoration: none;
+
+}
+
+.cabecalho_menu_link:hover {
+    color: white;
+}
+
+.forms {
+    display: flex;
+    margin-left: 8.4rem;
+    padding-top: 2rem;
+    justify-content:first baseline;
+    align-items: first baseline;
+    
+    
+
+
+}
+.container{
+    background-color: rgba(0, 0, 0, 0.212);
+    width: 50%;
+}
+.teste {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.label {
+    color: white;
+    font-size: 2rem;
+}
+
+.input {
+
+    width: 20rem;
+    background: transparent;
+    border-radius: 0.5rem;
+    border-color: red;
+    height: 2rem;
+    font-family: 'Mecha', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+
+}
+
+.sexo {
+
+  background-color: white;
+}

@@ -1,11 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Cadastro.css">
     <title>Cadastro</title>
 </head>
-<body>
-    
+
+
+<body class="background">
+    <div class="container">
+        <header class="cabecalho">
+            <nav class="cabecalho_menu">
+                <a class="cabecalho_menu_link" href="index.html">Home</a>
+                <a class="cabecalho_menu_link" href="#">About Us</a>
+            </nav>
+        </header>
+
+        <main class="forms">
+            <form class="teste">
+                <label class="label" for="Nome">Nome</label>
+                <input class="input" type="text" name="Nome" placeholder="Insira o seu nome completo">
+                <label class="label" for="E-mail">E-mail</label>
+                <input class="input" type="text" name="E-mail" placeholder="Insira o seu e-mail">
+                <label class="label" for="Senha">Senha</label>
+                <input class="input" type="password" name="Senha" placeholder="Insira sua senha">
+                <label class="label" for="Senha">Confirme sua senha</label>
+                <input class="input" type="password" name="Senha" placeholder="Insira sua senha novamente">
+                <label class="label" for="Sexo">Sexo</label>
+                <input class="sexo" type="radio" name="Masculino"> Masculino
+                <input class="sexo" type="radio" name="Feminino"> Feminino
+                <input class="sexo" type="radio" name="LGBT">LGBT
+                <input class="input" type="button" value="Cadastrado">
+
+            </form>
+        </main>
+    </div>
 </body>
+
 </html>
