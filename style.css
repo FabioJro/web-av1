@@ -44,9 +44,13 @@
 
 .apresentacao__conteudo__titulo {
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 4rem;
     color: white;
     text-shadow: 2px 2px 2px #111;
+    margin-right: 19.5rem;
 
 
 }
@@ -59,7 +63,7 @@
 
 .apresentacao_descricao {
 
-
+    margin-left: 3rem;
     font-size: 1.5rem;
     color: white;
     text-shadow: 2px 2px 2px #111;
@@ -134,26 +138,38 @@
 
     .button-cadastro {
         font-size: 2rem;
-        margin-left: 9rem;
+        margin-left: 7rem;
         border-style: solid;
         border-radius: 0.8rem;
-        
+
     }
 
     .apresentacao {
         padding-left: 4rem;
     }
 
-    .apresentacao__conteudo__titulo {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-       
+
+
+
+}
+
+@media (max-width: 785px) {
+
+    .button-cadastro {
+        font-size: 2rem;
+        margin-left: 7rem;
+        border-style: solid;
+        border-radius: 0.8rem;
+
+
+
     }
 
-    .cabecalho_menu_link {
 
-        
-    
-    }
+
+
+
+
+
+
 }

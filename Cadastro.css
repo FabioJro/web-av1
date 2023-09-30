@@ -27,7 +27,7 @@
 
 .cabecalho {
 
-    padding: 2% 0% 0% 10%;
+    padding: 3% 0% 0% 10%;
  
 
 }
@@ -50,26 +50,44 @@
 .cabecalho_menu_link:hover {
     color: white;
 }
+.apresentacao__conteudo__titulo {
 
-.forms {
     display: flex;
-    margin-left: 8.4rem;
-    padding-top: 2rem;
     justify-content:first baseline;
     align-items: first baseline;
-    
+    font-size: 4rem;
+    color: white;
+    text-shadow: 2px 2px 2px #111;
+    margin-top: 3rem;
+    margin-left: 10rem;
     
 
 
 }
+
+#titulo_destaque {
+
+    color: red;
+
+}
+.forms {
+    display: flex;
+    margin-left: 10rem;
+    padding-top: 2rem;
+    justify-content:first baseline;
+    align-items: first baseline; 
+    
+}
 .container{
     background-color: rgba(0, 0, 0, 0.212);
     width: 50%;
+    height: 100vh;
 }
 .teste {
 
     display: flex;
     flex-direction: column;
+    gap:0.5rem;
 
 }
 
@@ -88,10 +106,45 @@
     font-family: 'Mecha', sans-serif;
     font-size: 1.5rem;
     color: white;
+    width: 130%;
+
 
 }
 
 .sexo {
 
   background-color: white;
+}
+
+.btn-cadastro {
+
+    width: 20rem;
+    background: transparent;
+    border-radius: 0.5rem;
+    border-color: red;
+    height: 2rem;
+    font-family: 'Mecha', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    width: 50%;
+    margin-left: 6rem;
+    
+
+}
+
+@media (max-width: 1044px) {
+
+    .container{
+        
+        width: 100%;
+        
+    }
+
+
+
+
+
+
+
+
 }
