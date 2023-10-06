@@ -164,12 +164,22 @@
 
 
     }
+}
+
+@media (max-width: 691px) {
+
+    .apresentacao_descricao {
+
+        margin-left: 0.5rem;
+    }
+
+    .button-cadastro {
+
+        margin-left: 10rem;
 
 
 
-
-
-
+    }
 
 
 }
