@@ -20,6 +20,7 @@
     flex-direction: column;
     height: 100vh;
     font-family: 'Mecha', sans-serif;
+    text-shadow: 2px 2px 2px #111;
 }
 
 .apresentacao {
@@ -94,7 +95,7 @@
 
 .cabecalho {
 
-    padding: 2% 0% 0% 10%;
+    padding: 3% 0% 0% 10%;
 
 }
 
