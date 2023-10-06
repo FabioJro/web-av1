@@ -77,11 +77,16 @@
     justify-content:first baseline;
     align-items: first baseline; 
     
+    
 }
 .container{
     background-color: rgba(0, 0, 0, 0.212);
     width: 50%;
     height: 100vh;
+}
+
+::placeholder{
+    color: white;
 }
 .teste {
 
@@ -113,7 +118,29 @@
 
 .sexo {
 
-  background-color: white;
+  background: transparent;
+  border-radius: 0.5rem;
+  border-color: red;
+  height: 2rem;
+  font-size: 1.5rem;
+  font-family: 'Mecha', sans-serif;
+  color: white;
+  width: 130%;
+}
+
+
+.sx {
+
+    width: 20rem;
+    border-radius: 0.5rem;
+    border-color: red;
+    height: 2rem;
+    font-family: 'Mecha', sans-serif;
+    font-size: 1.5rem;
+    width: 130%;
+    color :black;
+
+
 }
 
 .btn-cadastro {
