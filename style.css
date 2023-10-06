@@ -19,6 +19,7 @@
     display: flex;
     flex-direction: column;
     height: 100vh;
+    width: 100%;
     font-family: 'Mecha', sans-serif;
     text-shadow: 2px 2px 2px #111;
 }
@@ -149,9 +150,6 @@
         padding-left: 4rem;
     }
 
-
-
-
 }
 
 @media (max-width: 785px) {
@@ -177,9 +175,47 @@
     .button-cadastro {
 
         margin-left: 10rem;
+    }
 
 
+}
 
+@media (max-width: 400px) {
+    .apresentacao {
+        width: 100%;
+        padding: 0;
+        align-items: center;
+        
+    }
+
+    .apresentacao__conteudo {
+
+        margin: auto auto;
+        width: 100%;
+
+    }
+
+    .cabecalho_menu_link{
+        font-size: 2rem;
+    }
+
+    .apresentacao__conteudo__titulo {
+        align-items: start;
+        justify-content: unset;
+        font-size: 2rem;
+        margin: 0 0 0 .5rem; 
+              
+        
+    }
+
+    .apresentacao_descricao {
+        font-size: 1rem;
+    }
+
+    .button-cadastro {
+        width: 50%;
+        margin: auto auto;
+        font-size: 1rem;
     }
 
 

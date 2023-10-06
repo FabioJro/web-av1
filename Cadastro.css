@@ -220,4 +220,22 @@
             margin-left: 1.5rem;
         }
     }
+
+  
+    @media (max-width: 455px) {
+
+        .cabecalho {
+
+            padding: 5% 0% 0% 5%;       
+        
+        }
+        
+        .apresentacao__conteudo__titulo {
+            margin-left: 1rem;
+        }
+
+        .forms {
+            margin-left: 1.5rem;
+        }
+    }
 }
