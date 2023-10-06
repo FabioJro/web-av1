@@ -144,7 +144,20 @@
 
 
 
+}
+@media (max-width: 508px) {
 
+    .apresentacao__conteudo__titulo {
 
+       
+        margin-top: 3rem;
+        margin-left: 6rem;      
+    
+    
+    }
+
+    .forms{
+        margin-left: 5rem;
+    }
 
 }
